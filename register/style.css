@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap");
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh; /* 100% de la altura de la ventana del navegador */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Asegúrate de que todos los elementos secundarios ocupen el espacio necesario */
+.row {
+  flex: 1;
+}
+
+.btn-secondary {
+  background-color: #1400c6;
+}
+
+.businessText {
+  color: #ff0028;
+}
+
+.card {
+  border-radius: 0;
+}
+
+i {
+  color: #657a00;
+}
